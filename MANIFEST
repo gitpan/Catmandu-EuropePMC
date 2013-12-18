@@ -1,0 +1,15 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+README
+cpanfile
+dist.ini
+lib/Catmandu/EuropePMC.pm
+lib/Catmandu/Fix/epmc_dblinks.pm
+lib/Catmandu/Fix/epmc_filter.pm
+lib/Catmandu/Importer/EuropePMC.pm
+t/basic.t
+t/release-pod-syntax.t
