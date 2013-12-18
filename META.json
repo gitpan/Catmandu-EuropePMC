@@ -51,16 +51,16 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/vpeil/Catmandu-EuropePMC/issues"
+         "web" : "https://github.com/LibreCat/Catmandu-EuropePMC/issues"
       },
-      "homepage" : "https://github.com/vpeil/Catmandu-EuropePMC",
+      "homepage" : "https://github.com/LibreCat/Catmandu-EuropePMC",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/vpeil/Catmandu-EuropePMC.git",
-         "web" : "https://github.com/vpeil/Catmandu-EuropePMC"
+         "url" : "https://github.com/LibreCat/Catmandu-EuropePMC.git",
+         "web" : "https://github.com/LibreCat/Catmandu-EuropePMC"
       }
    },
-   "version" : "0.05",
+   "version" : "v0.06",
    "x_contributors" : [
       "vpeil <vitali.peil@uni-bielefeld.de>"
    ]

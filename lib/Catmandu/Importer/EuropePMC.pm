@@ -12,7 +12,7 @@ use constant BASE_URL => 'http://www.ebi.ac.uk/europepmc/webservices/rest';
 has base => (is => 'ro', default => sub { return BASE_URL; });
 has source => (is => 'ro', default => sub { return "MED"; });
 has query => (is => 'ro', required => 1);
-has module => (is => 'ro');
+has module => (is => 'ro', default => sub { return "search"; });
 has db => (is => 'ro');
 has page => (is => 'ro');
 has format => (is => 'ro');

@@ -1,5 +1,9 @@
 Revision history for Catmandu-EuropePMC
 
+v0.06  2013-12-18 16:37:50 CET
+	- default option added
+	- tests extended
+
 0.05  2013-12-18 14:58:20 CET
 	- again tests
 
