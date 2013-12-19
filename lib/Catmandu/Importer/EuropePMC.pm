@@ -122,6 +122,24 @@ sub generator {
     # ...
   });
 
+=head1 OPTIONS
+
+=over
+
+=item * source: default is 'MED'
+
+=item * query: required
+
+=item * module: default is 'search', other possible values are 'databaseLinks', 'citations', 'references'
+
+=item * db: the name of the database. Use when module is 'databaseLinks'
+
+=item * page: the paging parameter
+
+=item * format: default is 'xml', the other choice is 'json'
+
+=back
+
 =head1 SEE ALSO
 
 L<Catmandu::Iterable>, L<Catmandu::Importer::PubMed>

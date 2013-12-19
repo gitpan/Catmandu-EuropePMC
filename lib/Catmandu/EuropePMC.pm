@@ -1,7 +1,7 @@
 package Catmandu::EuropePMC;
 
 
-our $VERSION = 'v0.06';
+our $VERSION = 'v0.07';
 
 1;
 __END__
@@ -12,13 +12,9 @@ __END__
 
 Catmandu::EuropePMC - A bundle of Catmandu modules for working with data from EuropePMC
 
-=head1 DESCRIPTION
-
-Catmandu::EuropePMC is
-
 =head1 AUTHOR
 
-Vitali Peil E<lt>vitali.peil@uni-bielefeld.deE<gt>
+Vitali Peil E<lt>vitali.peil at uni-bielefeld.deE<gt>
 
 =head1 MODULES
 
@@ -42,5 +38,7 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =head1 SEE ALSO
+
+L<Catmandu::PubMed>
 
 =cut

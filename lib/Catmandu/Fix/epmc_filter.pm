@@ -34,11 +34,10 @@ sub fix {
 
 =head1 SYNOPSIS
 
-  use Catmandu::Fix qw(epmc_filter);
-  use Catmandu::Importer::EBI;
+  use Catmandu::Fix qw(epmc_filter);  
   
-  my $importer = Catmandu::Importer::EuropePMC->new(query => 'doi:...');
-    
+  my $data = {...};
   my $fixer = Catmandu::Fix->new(fixes => ['epmc_filter()']);
+  $fixer->fix($data);
 
 =cut
