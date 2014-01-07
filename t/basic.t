@@ -30,6 +30,6 @@ my $db_importer = $pkg->new(
 
 my $db = $db_importer->first;
 
-is(exists $db->{dbCrossReferenceList}->{dbCrossReference}, '1', "Database links of");
+is(exists $db->{dbCrossReferenceList}->{dbCrossReference}, '1', "Database links ok");
 
 done_testing 7;

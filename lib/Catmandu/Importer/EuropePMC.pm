@@ -4,6 +4,7 @@ use Catmandu::Sane;
 use Moo;
 use LWP::UserAgent;
 use XML::Simple qw(XMLin);
+use Try::Tiny;
 
 with 'Catmandu::Importer';
 
@@ -26,12 +27,18 @@ sub _request {
   my ($self, $url) = @_;
 
   my $ua = LWP::UserAgent->new;
-  $ua->timeout(10);
+  $ua->timeout(20);
 
-  my $res = $ua->get($url);
-  die $res->status_line unless $res->is_success;
+  my $res;
+  try {
+    $res = $ua->get($url);
+    die $res->status_line unless $res->is_success;
 
-  return $res->decoded_content;
+    return $res->decoded_content;
+  } catch {
+    Catmandu::Error->throw("Status code: $res->status_line");
+  };
+
 }
 
 # Returns a hash representation of the given XML.

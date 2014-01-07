@@ -1,5 +1,8 @@
 Revision history for Catmandu-EuropePMC
 
+v0.08  2014-01-07 15:56:49 CET
+	- better error handling, Try::Tiny
+
 v0.07  2013-12-19 10:04:28 CET
 	- pod
 

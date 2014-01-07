@@ -7,3 +7,4 @@ on test => sub {
 requires 'Catmandu', '0.8002';
 requires 'LWP::UserAgent', '>= 6.0';
 requires 'XML::Simple', '>= 2.2';
+requires 'Try::Tiny', '0.12';
