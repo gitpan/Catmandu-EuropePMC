@@ -1,7 +1,7 @@
 package Catmandu::EuropePMC;
 
 
-our $VERSION = 'v0.08';
+our $VERSION = 'v0.10';
 
 1;
 __END__

@@ -1,4 +1,4 @@
-package Catmandu::Fix::epmc_dbLinks;
+package Catmandu::Fix::epmc_dblinks;
 
 use Catmandu::Sane;
 use Moo;
