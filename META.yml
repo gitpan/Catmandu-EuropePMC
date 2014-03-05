@@ -3,6 +3,7 @@ abstract: 'A bundle of Catmandu modules for working with data from EuropePMC'
 author:
   - 'Vitali Peil <vitali.peil at uni-bielefeld.de>'
 build_requires:
+  Test::Exception: 0.32
   Test::More: 0.88
 configure_requires:
   Module::Build::Tiny: 0.030
@@ -31,6 +32,6 @@ resources:
   bugtracker: https://github.com/LibreCat/Catmandu-EuropePMC/issues
   homepage: https://github.com/LibreCat/Catmandu-EuropePMC
   repository: https://github.com/LibreCat/Catmandu-EuropePMC.git
-version: v0.10
+version: 0.11
 x_contributors:
   - 'vpeil <vitali.peil@uni-bielefeld.de>'

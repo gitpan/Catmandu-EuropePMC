@@ -1,7 +1,7 @@
 package Catmandu::EuropePMC;
 
 
-our $VERSION = 'v0.10';
+our $VERSION = '0.11';
 
 1;
 __END__
@@ -20,11 +20,17 @@ Vitali Peil E<lt>vitali.peil at uni-bielefeld.deE<gt>
 
 =over
 
-=item * L<Catmandu::Importer::EuropePMC>
+=item * 
 
-=item * L<Catmandu::Fix::epmc_filter>
+L<Catmandu::Importer::EuropePMC>
 
-=item * L<Catmandu::Fix::epmc_dbLinks>
+=item * 
+
+L<Catmandu::Fix::epmc_filter>
+
+=item * 
+
+L<Catmandu::Fix::epmc_dbLinks>
 
 =back
 

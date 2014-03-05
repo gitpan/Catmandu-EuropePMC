@@ -45,6 +45,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0.32",
             "Test::More" : "0.88"
          }
       }
@@ -61,7 +62,7 @@
          "web" : "https://github.com/LibreCat/Catmandu-EuropePMC"
       }
    },
-   "version" : "v0.10",
+   "version" : "0.11",
    "x_contributors" : [
       "vpeil <vitali.peil@uni-bielefeld.de>"
    ]
