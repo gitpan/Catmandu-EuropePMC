@@ -1,5 +1,8 @@
 Revision history for Catmandu-EuropePMC
 
+0.12  2014-04-29 11:40:51 CEST
+	- removed dependency XML::Simple and LWP::UserAgent
+
 0.11  2014-03-05 15:25:38 CET
 	- tests improved
 

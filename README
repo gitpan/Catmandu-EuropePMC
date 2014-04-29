@@ -3,7 +3,7 @@ NAME
     from EuropePMC
 
 AUTHOR
-    Vitali Peil <vitali.peil at uni-bielefeld.de>
+    Vitali Peil "<vitali.peil at uni-bielefeld.de>"
 
 MODULES
     *   Catmandu::Importer::EuropePMC
