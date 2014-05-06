@@ -62,7 +62,7 @@
          "web" : "https://github.com/LibreCat/Catmandu-EuropePMC"
       }
    },
-   "version" : "0.12",
+   "version" : "0.13",
    "x_contributors" : [
       "vpeil <vitali.peil@uni-bielefeld.de>"
    ]
