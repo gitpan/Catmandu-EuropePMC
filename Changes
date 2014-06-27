@@ -1,5 +1,8 @@
 Revision history for Catmandu-EuropePMC
 
+0.14  2014-06-27 14:01:39 CEST
+	- renamed accessor format to fmt
+
 0.13  2014-05-06 08:24:25 CEST
 	- cpan, please index me
 

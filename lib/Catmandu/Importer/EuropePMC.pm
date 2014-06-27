@@ -16,7 +16,7 @@ has query => (is => 'ro', required => 1);
 has module => (is => 'ro', default => sub { return "search"; });
 has db => (is => 'ro');
 has page => (is => 'ro');
-has format => (is => 'ro');
+has fmt => (is => 'ro');
 
 my %MAP = (references => 'reference',
   citations => 'citation',
@@ -128,7 +128,7 @@ sub generator {
 
 =item * page: the paging parameter
 
-=item * format: default is 'xml', the other choice is 'json'
+=item * fmt: default is 'xml', the other choice is 'json'
 
 =back
 
