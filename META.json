@@ -1,7 +1,7 @@
 {
    "abstract" : "A bundle of Catmandu modules for working with data from EuropePMC",
    "author" : [
-      "Vitali Peil C<< <vitali.peil at uni-bielefeld.de> >>"
+      "Vitali Peil"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Milla version v1.0.5, Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.131560",
@@ -24,9 +24,14 @@
       ]
    },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.036"
+            "Module::Build" : "0.3601"
          }
       },
       "develop" : {
@@ -36,10 +41,11 @@
       },
       "runtime" : {
          "requires" : {
-            "Catmandu" : "0.8014",
-            "Furl" : "3.02",
-            "Try::Tiny" : "0.12",
-            "XML::LibXML::Simple" : "0.93",
+            "Catmandu" : "0",
+            "Catmandu::XML" : "0",
+            "Furl" : "0",
+            "Moo" : "0",
+            "Try::Tiny" : "0",
             "perl" : "v5.10.1"
          }
       },
@@ -62,7 +68,7 @@
          "web" : "https://github.com/LibreCat/Catmandu-EuropePMC"
       }
    },
-   "version" : "0.14",
+   "version" : "0.15",
    "x_contributors" : [
       "vpeil <vitali.peil@uni-bielefeld.de>"
    ]

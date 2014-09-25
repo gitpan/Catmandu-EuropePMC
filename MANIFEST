@@ -10,7 +10,8 @@ cpanfile
 dist.ini
 lib/Catmandu/EuropePMC.pm
 lib/Catmandu/Fix/epmc_dblinks.pm
-lib/Catmandu/Fix/epmc_filter.pm
 lib/Catmandu/Importer/EuropePMC.pm
-t/basic.t
+t/00_load.t
+t/01_import.t
+t/02_fix.t
 t/release-pod-syntax.t
